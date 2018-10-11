@@ -46,6 +46,5 @@ public class WeCatBalanceHook implements IXposedHookLoadPackage {
             }
         });
 
-
     }
 }
