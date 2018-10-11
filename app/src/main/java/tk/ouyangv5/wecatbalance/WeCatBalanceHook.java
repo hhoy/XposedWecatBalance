@@ -20,7 +20,6 @@ public class WeCatBalanceHook implements IXposedHookLoadPackage {
         if (!lpparam.packageName.equals("com.tencent.mm"))
             return;
 
-
         String hookClass = "com.tencent.mm.plugin.wallet.balance.ui.WalletBalanceManagerUI";
         String hookMethodName = "onCreate";
         /*
