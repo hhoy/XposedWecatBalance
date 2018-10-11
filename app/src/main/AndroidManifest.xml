@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tk.ouyangv5.wecatbalance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--是否是xposed模块-->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true"/>
+        <!--模块名字-->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="修改微信余额"/>
+        <!--xposed最低版本
+            比如你的xposed api是de.robv.android.xposed:api:82，就填82-->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="82"/>
+    </application>
+
+</manifest>
