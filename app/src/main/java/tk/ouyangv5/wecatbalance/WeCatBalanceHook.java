@@ -1,8 +1,6 @@
 package tk.ouyangv5.wecatbalance;
 
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.widget.TextView;
 
 import java.lang.reflect.Field;
